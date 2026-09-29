@@ -1,2 +1,1 @@
-# AI-Agents-and-Workflows-for-Developers
-AI Code reviewer
+This project implements a multi-agent workflow for software development.  The system contains two AI agents:  Code Writer Agent: receives a programming request and generates Python code.  Code Reviewer Agent: reviews the generated code, identifies possible problems, and suggests improvements.  The workflow also uses custom tools for code analysis, maintains conversational state and memory, and pauses before producing the final result so that a human can approve the generated solution or request revisions.  The workflow is implemented using LangGraph and LangChain.
